@@ -28,7 +28,7 @@ if(!empty($_POST['jank'])) {
 		file_put_contents("/var/www/html/mob_jank_gauge/jankness.txt", $jank);
 		echo "Jank updated";
 	}
-else echo "jank out of range";
+	else echo "jank out of range";
 }
 else echo "Set jank parameter to 0 - 1000";
 ?>
