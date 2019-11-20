@@ -2,10 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -13,8 +9,15 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(16pt + 2vmin);
   color: white;
+}
+
+.Inner-box {
+    width: 100vh;
+    min-height: 50vh;
+    margin-top: 50px;
+    padding-bottom: 50px;
 }
 
 .App-link {
