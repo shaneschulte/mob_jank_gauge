@@ -1,5 +1,6 @@
 {
   "name": "jank_gauge",
+  "homepage": "https://shaneschulte.com/mob_jank_gauge",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
