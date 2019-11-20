@@ -24,7 +24,7 @@ if(!empty($_POST['jank'])) {
 		}
 	}
 	if($jank >= 0 && $jank <=1000) {
-		file_put_contents("/var/www/html/mob_jank_gauge/jankness_log.txt", $jank . "\n", FILE_APPEND);
+		file_put_contents("/var/www/html/mob_jank_gauge/jankness_log.txt", time() . " " . $jank . "\n", FILE_APPEND);
 		file_put_contents("/var/www/html/mob_jank_gauge/jankness.txt", $jank);
 		echo "Jank updated";
 	}
